@@ -234,11 +234,11 @@ tmux_conf_theme_clock_style='24'
 
 # -- general -------------------------------------------------------------------
 
-set -g prefix  C-Space
-set -g prefix2 C-Space
+set -g prefix  C-s
+set -g prefix2 C-s
 unbind C-b
 unbind C-a
-bind C-Space send-prefix
+bind C-s send-prefix
 
 # force Vi mode
 set -g status-keys vi
